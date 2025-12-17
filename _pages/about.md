@@ -11,12 +11,12 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>
-      <a href="mailto:tonyzhang666@sjtu.edu.cn" style="text-decoration: none; color: inherit;">
-        <i class="fas fa-envelope" style="margin-right: 5px;"></i> tonyzhang666@sjtu.edu.cn
-      </a>
+    <a href="mailto:tonyzhang666@sjtu.edu.cn" style="text-decoration: none; color: #6c63ff; font-family: inherit;">
+      <i class="fas fa-envelope" style="margin-right: 5px;"></i> tonyzhang666@sjtu.edu.cn
+    </a>
     </p>
     <p>
-      <a href="https://github.com/TonyZhang-sjtu" target="_blank" style="text-decoration: none; color: inherit;">
+      <a href="https://github.com/TonyZhang-sjtu" target="_blank" style="text-decoration: none; color: #6c63ff; font-family: inherit;">
         <i class="fab fa-github" style="margin-right: 5px;"></i> TonyZhang-sjtu
       </a>
     </p>

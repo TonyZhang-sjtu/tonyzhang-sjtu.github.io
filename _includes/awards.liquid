@@ -11,9 +11,9 @@
         {% assign awards = site.awards | reverse %}
         {% for award in awards %}
           <tr>
-            <th scope="row" style="width: 20%">{{ award.year }}</th>
+            <th scope="row" style="width: 20%">{{ award.year | join: ", " }}</th>
             <td>
-              <strong>{{ award.year | join: ", " }}</strong>: {{ award.description }}
+              {{ award.description }}
             </td>
           </tr>
         {% endfor %}

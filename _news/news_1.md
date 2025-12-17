@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been admitted to the Master's program in Automation at Shanghai Jiao Tong University. :party_popper: :party_popper:
+I have been admitted to the Master's program in Automation at Shanghai Jiao Tong University. 🎉🎉

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been awarded the 2025 National Scholarship. :sparkles: :partying_face:
+I'm awarded the 2025 National Scholarship. :sparkles: :partying_face:

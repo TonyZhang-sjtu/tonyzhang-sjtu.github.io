@@ -10,9 +10,18 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>
+      <a href="mailto:tonyzhang666@sjtu.edu.cn">
+        <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon" style="width:20px;height:20px;vertical-align:middle;"> tonyzhang666@sjtu.edu.cn
+      </a>
+    </p>
+    <p>
+      <a href="https://github.com/TonyZhang-sjtu" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Icon" style="width:20px;height:20px;vertical-align:middle;"> TonyZhang-sjtu
+      </a>
+    </p>
+
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

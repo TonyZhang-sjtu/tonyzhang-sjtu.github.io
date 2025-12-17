@@ -1,7 +1,7 @@
 ---
 layout: award
 title: Excellent Undergraduate Scholarship (Top 10%)
-year: 
+year:
   - 2025
   - 2024
   - 2023

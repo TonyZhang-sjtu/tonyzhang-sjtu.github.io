@@ -386,16 +386,31 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "awards-best-research-paper-award",
-          title: 'Best Research Paper Award',
-          description: "Best Research Paper Award",
+      },{id: "awards-merit-student-of-shanghai-jiao-tong-university-top-5",
+          title: 'Merit Student of Shanghai Jiao Tong University (Top 5%)',
+          description: "Merit Student of Shanghai Jiao Tong University (Top 5%)",
           section: "Awards",handler: () => {
-              window.location.href = "/awards/2024-best-research-paper/";
-            },},{id: "awards-outstanding-contribution-in-ai",
-          title: 'Outstanding Contribution in AI',
-          description: "Outstanding Contribution in AI",
+              window.location.href = "/awards/2024-2023-merit-student/";
+            },},{id: "awards-sheng-family-scholarship-3-undergraduates-in-sjtu",
+          title: 'Sheng Family Scholarship (3 undergraduates in SJTU)',
+          description: "Sheng Family Scholarship (3 undergraduates in SJTU)",
           section: "Awards",handler: () => {
-              window.location.href = "/awards/2025-outstanding-contribution/";
+              window.location.href = "/awards/2024-2023-sheng-family-scholarship/";
+            },},{id: "awards-excellent-undergraduate-scholarship-top-10",
+          title: 'Excellent Undergraduate Scholarship (Top 10%)',
+          description: "Excellent Undergraduate Scholarship (Top 10%)",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2025-2024-2023-excellent-undergraduate-scholarship/";
+            },},{id: "awards-national-scholarship-top-0-2-nationwide",
+          title: 'National Scholarship (Top 0.2% Nationwide)',
+          description: "National Scholarship (Top 0.2% Nationwide)",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2025-2024-national-scholarship/";
+            },},{id: "awards-merit-student-leader-of-shanghai-jiao-tong-university-top-2",
+          title: 'Merit Student Leader of Shanghai Jiao Tong University (Top 2%)',
+          description: "Merit Student Leader of Shanghai Jiao Tong University (Top 2%)",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2025-merit-student-leader/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",

@@ -416,7 +416,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-have-been-admitted-to-the-master-s-program-in-automation-at-shanghai-jiao-tong-university-party-popper-party-popper",
+            },},{id: "news-i-have-been-admitted-to-the-master-s-program-in-automation-at-shanghai-jiao-tong-university",
           title: 'I have been admitted to the Master’s program in Automation at Shanghai Jiao...',
           description: "",
           section: "News",},{id: "news-i-have-been-awarded-the-2025-national-scholarship-sparkles-partying-face",

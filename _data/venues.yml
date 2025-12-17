@@ -1,9 +1,37 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# "PhysRev":
+#   url: https://journals.aps.org/
 
-"Vision":
-  color: "#009f36"
+# "Vision":
+#   color: "#009f36"
+
+Arxiv:
+  abbr: Arxiv
+  link: https://arxiv.org
+
+ICLR:
+  abbr: ICLR
+  link: https://iclr.cc
+
+NeurIPS:
+  abbr: NeurIPS
+  link: https://neurips.cc
+
+IJCV:
+  abbr: IJCV
+  link: https://www.springer.com/journal/11263
+
+ICML:
+  abbr: ICML
+  link: https://icml.cc
+
+ICCV:
+  abbr: ICCV
+  link: https://iccv2025.thecvf.com
+
+CVPR:
+  abbr: CVPR
+  link: https://cvpr2025.thecvf.com

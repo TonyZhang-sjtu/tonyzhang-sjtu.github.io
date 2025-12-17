@@ -1,13 +1,24 @@
 <div class="awards">
   {% if site.awards != blank %}
-    <ul>
-      {% for award in site.awards %}
-        <li>
-          <strong>{{ award.title }}</strong> 
-          ({{ award.years | join: ", " }}): {{ award.description }}
-        </li>
-      {% endfor %}
-    </ul>
+    {% assign awards_size = site.awards | size %}
+    <div
+      class="table-responsive"
+      {% if awards_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign awards = site.awards | reverse %}
+        {% for award in awards %}
+          <tr>
+            <th scope="row" style="width: 20%">{{ award.year }}</th>
+            <td>
+              <strong>{{ award.year | join: ", " }}</strong>: {{ award.description }}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
   {% else %}
     <p>No awards so far...</p>
   {% endif %}

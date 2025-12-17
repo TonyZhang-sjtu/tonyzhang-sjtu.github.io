@@ -409,11 +409,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-have-been-admitted-to-the-master-s-program-in-automation-at-shanghai-jiao-tong-university",
-          title: 'I have been admitted to the Master’s program in Automation at Shanghai Jiao...',
+            },},{id: "news-i-have-been-admitted-to-the-master-program-in-automation-at-shanghai-jiao-tong-university",
+          title: 'I have been admitted to the Master program in Automation at Shanghai Jiao...',
           description: "",
-          section: "News",},{id: "news-i-have-been-awarded-the-2025-national-scholarship-sparkles-partying-face",
-          title: 'I have been awarded the 2025 National Scholarship. :sparkles: :partying_face:',
+          section: "News",},{id: "news-i-m-awarded-the-2025-national-scholarship-sparkles-partying-face",
+          title: 'I’m awarded the 2025 National Scholarship. :sparkles: :partying_face:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

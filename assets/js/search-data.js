@@ -386,7 +386,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "awards-best-research-paper-award",
+          title: 'Best Research Paper Award',
+          description: "Best Research Paper Award",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2024-best-research-paper/";
+            },},{id: "awards-outstanding-contribution-in-ai",
+          title: 'Outstanding Contribution in AI',
+          description: "Outstanding Contribution in AI",
+          section: "Awards",handler: () => {
+              window.location.href = "/awards/2025-outstanding-contribution/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {

@@ -56,10 +56,18 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+    <!-- Awards -->
+    {% if page.awards and page.awards.enabled %}
+      <h2>
+        <a href="{{ '/awards/' | relative_url }}" style="color: inherit">awards</a>
+      </h2>
+      {% include award.liquid %}
+    {% endif %}
+
+    <!-- Publications -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

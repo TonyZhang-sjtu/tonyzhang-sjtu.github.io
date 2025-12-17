@@ -33,6 +33,11 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+awards:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 awards
+  limit: 5 # leave blank to include all awards
 ---
 
 Hi, there! I'm Jingyuan Zhang, a fourth-year undergraduate student advised by [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/En/xiaolin) from [Institute of Image Processing and Pattern Recognition](http://www.pami.sjtu.edu.cn/). 

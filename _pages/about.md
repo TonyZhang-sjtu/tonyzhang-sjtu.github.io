@@ -11,13 +11,13 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>
-    <a href="mailto:tonyzhang666@sjtu.edu.cn" style="text-decoration: none; color: #a624a7; font-family: Roboto;">
-      <i class="fas fa-envelope" style="margin-right: 5px;"></i> tonyzhang666@sjtu.edu.cn
+    <a href="mailto:tonyzhang666@sjtu.edu.cn" style="text-decoration: none; color: var(--global-theme-color); font-family: Roboto;">
+      <i class="fas fa-envelope" style="margin-right: 5px; color: var(--global-text-color);"></i> tonyzhang666@sjtu.edu.cn
     </a>
     </p>
     <p>
-      <a href="https://github.com/TonyZhang-sjtu" target="_blank" style="text-decoration: none; color: #a624a7; font-family: Roboto;">
-        <i class="fab fa-github" style="margin-right: 5px;"></i> TonyZhang-sjtu
+      <a href="https://github.com/TonyZhang-sjtu" target="_blank" style="text-decoration: none; color: var(--global-theme-color); font-family: Roboto;">
+        <i class="fab fa-github" style="margin-right: 5px; color: var(--global-text-color);"></i> TonyZhang-sjtu
       </a>
     </p>
 
@@ -42,9 +42,9 @@ awards:
 
 Hi, there! I'm Jingyuan Zhang, a fourth-year undergraduate student advised by [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/En/xiaolin) from [Institute of Image Processing and Pattern Recognition](http://www.pami.sjtu.edu.cn/).
 
-I'm expected to receive B.Eng in Automation with a minor in Finance in June 2026 from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). Previously, I was fortunate to collabrated with [Prof. Yulun Zhang](https://yulunzhang.com/) from [Artificial Intelligence Institute](https://ai.sjtu.edu.cn/) in Model Compression. I was also a visiting student at [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/) in summer 2023 and Department of [Electrical and Computer Engineering, North Carolina State University](https://ece.ncsu.edu/) in summer 2025.
+I'm expected to receive B.Eng in Automation with a minor in Finance in June 2026 from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). Previously, I was fortunate to collabrate with [Prof. Yulun Zhang](https://yulunzhang.com/) from [Artificial Intelligence Institute](https://ai.sjtu.edu.cn/) in Model Compression. I was also a visiting student at [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/) in summer 2023 and [Department of Electrical and Computer Engineering, North Carolina State University](https://ece.ncsu.edu/) in summer 2025.
 
-My research interests include Large Language Model, Machine Learning, Diffusion Model, Computer Vision and Model Compression. I'm open to any collaborations! Feel free to drop me an email for casual chat!
+My research interests lie in Large Language Model, Machine Learning, Diffusion Model, Computer Vision and Model Compression. I'm also a fan of table tennis🏓, badminton🏸, tennis🎾, volleyball🏐, piano🎹 and travel✈️. I'm open to any collaborations! Feel free to drop me an email for casual chat!
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2026-01-21'
 papers:
+  ditU6YoAAAAJ:u-x6o8ySG0sC:
+    citations: 0
+    title: 'VL-RouterBench: A Benchmark for Vision-Language Model Routing'
+    year: '2025'
   ditU6YoAAAAJ:u5HHmVD_uO8C:
     citations: 5
     title: 'Adasvd: Adaptive singular value decomposition for large language models'

@@ -18,3 +18,5 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+{% include publication_equal_contrib_note.liquid %}

@@ -59,6 +59,10 @@
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
+      {% assign equal_contrib_indices = '' | split: ',' %}
+      {% if entry.equal_contrib %}
+        {% assign equal_contrib_indices = entry.equal_contrib | split: ',' %}
+      {% endif %}
 
       {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
@@ -67,8 +71,21 @@
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
+        {% assign equal_contrib_author = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {% capture author_index %}{{ forloop.index }}{% endcapture %}
+        {% for equal_index in equal_contrib_indices %}
+          {% assign stripped_equal_index = equal_index | strip %}
+          {% if stripped_equal_index == author_index %}
+            {% assign equal_contrib_author = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% assign rendered_author_last = author_last_html %}
+        {% if equal_contrib_author %}
+          {% assign rendered_author_last = rendered_author_last | append: '<sup>*</sup>' %}
+        {% endif %}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -94,17 +111,17 @@
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
-            {{ author_last_html -}}
+            {{ rendered_author_last -}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
-              {{ author_last_html -}}
+              {{ rendered_author_last -}}
             </a>
           {%- else -%}
             {{- author.first }}
-            {{ author_last_html -}}
+            {{ rendered_author_last -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -117,12 +134,24 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign more_author_last = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
+          {% assign equal_contrib_author = false %}
+          {% capture more_author_index %}{{ author_array_limit | plus: forloop.index }}{% endcapture %}
+          {% for equal_index in equal_contrib_indices %}
+            {% assign stripped_equal_index = equal_index | strip %}
+            {% if stripped_equal_index == more_author_index %}
+              {% assign equal_contrib_author = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          {% if equal_contrib_author %}
+            {% assign more_author_last = more_author_last | append: '<sup>*</sup>' %}
+          {% endif %}
+          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: more_author_last %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
         <span
           class="more-authors"

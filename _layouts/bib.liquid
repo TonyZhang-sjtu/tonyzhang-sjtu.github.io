@@ -83,7 +83,11 @@
           {% endif %}
         {% endfor %}
         {% assign rendered_author_last = author_last_html %}
-        {% if equal_contrib_author %}
+        {% assign author_has_explicit_star = false %}
+        {% if author.last contains '*' or author.last contains '∗' %}
+          {% assign author_has_explicit_star = true %}
+        {% endif %}
+        {% if equal_contrib_author and author_has_explicit_star == false %}
           {% assign rendered_author_last = rendered_author_last | append: '<sup>*</sup>' %}
         {% endif %}
         {% if site.scholar.last_name contains author_last_name %}
@@ -144,7 +148,11 @@
               {% break %}
             {% endif %}
           {% endfor %}
-          {% if equal_contrib_author %}
+          {% assign more_author_has_explicit_star = false %}
+          {% if author.last contains '*' or author.last contains '∗' %}
+            {% assign more_author_has_explicit_star = true %}
+          {% endif %}
+          {% if equal_contrib_author and more_author_has_explicit_star == false %}
             {% assign more_author_last = more_author_last | append: '<sup>*</sup>' %}
           {% endif %}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: more_author_last %}

@@ -37,3 +37,9 @@ CVPR:
   link: https://cvpr2025.thecvf.com
   color: "#00369f"
   text-color: "#ffffff"
+
+"CVPR (highlight)":
+  abbr: CVPR (highlight)
+  link: https://cvpr2025.thecvf.com
+  color: "#00369f"
+  text-color: "#ffffff"

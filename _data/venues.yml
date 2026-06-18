@@ -32,6 +32,11 @@ ICCV:
   abbr: ICCV
   link: https://iccv2025.thecvf.com
 
+ECCV:
+  abbr: ECCV
+  color: "#00369f"
+  text-color: "#ffffff"
+
 CVPR:
   abbr: CVPR
   link: https://cvpr2025.thecvf.com

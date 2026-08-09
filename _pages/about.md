@@ -40,11 +40,11 @@ awards:
   limit: 5 # leave blank to include all awards
 ---
 
-Hi, there! I'm Jingyuan Zhang, a fourth-year undergraduate student advised by [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/En/xiaolin) from [Institute of Image Processing and Pattern Recognition](http://www.pami.sjtu.edu.cn/).
+Hi, I'm Jingyuan Zhang, a first-year master student in Automation at Shanghai Jiao Tong University, advised by [Prof. Mingjie Li](https://mlii0117.github.io/) and [Prof. Hesheng Wang](https://irmv.sjtu.edu.cn/wanghesheng). My research focuses on visual intelligence and multimodal learning. I received B.Eng in Automation with a minor in Finance from SJTU.
 
-I'm expected to receive B.Eng in Automation with a minor in Finance in June 2026 from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). Previously, I was fortunate to collabrate with [Prof. Yulun Zhang](https://yulunzhang.com/) from [Artificial Intelligence Institute](https://ai.sjtu.edu.cn/) in Model Compression. I was also a visiting student at [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/) in summer 2023 and [Department of Electrical and Computer Engineering, North Carolina State University](https://ece.ncsu.edu/) in summer 2025.
+Previously, I was fortunate to collabrate with [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/En/xiaolin) in machine learning, VLM & diffusion models and [Prof. Yulun Zhang](https://yulunzhang.com/) in efficient AI & model compression. I was also lucky to be a visiting student at [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/) and [Department of Electrical and Computer Engineering, North Carolina State University](https://ece.ncsu.edu/) in 2023 and 2025.
 
-My research interests lie in Large Language Model, Machine Learning, Diffusion Model, Computer Vision and Model Compression. I'm also a fan of table tennis🏓, badminton🏸, tennis🎾, volleyball🏐, piano🎹 and travel✈️. I'm open to any collaborations! Feel free to drop me an email for casual chat!
+I'm also a fan of table tennis🏓, badminton🏸, tennis🎾, volleyball🏐, piano🎹 and travelling✈️. I'm open to any collaborations! Feel free to drop me an email for casual chat!
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

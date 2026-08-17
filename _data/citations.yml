@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-17'
 papers:
   ditU6YoAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: Compensation-free Machine Unlearning in Text-to-Image Diffusion Models by Eliminating the Mutual Information
     year: '2026'
   ditU6YoAAAAJ:u-x6o8ySG0sC:
-    citations: 1
+    citations: 2
     title: 'VL-RouterBench: A Benchmark for Vision-Language Model Routing'
     year: '2025'
   ditU6YoAAAAJ:u5HHmVD_uO8C:

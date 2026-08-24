@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-24'
 papers:
   ditU6YoAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'SAGE: Retain-Aware Post-Hoc Sanitization of Final Unlearning Vector'
     year: '2026'
   ditU6YoAAAAJ:9yKSN-GCB0IC:
-    citations: 0
+    citations: 32
     title: 'AdaSVD: Singular Value Decomposition with Adaptive Mechanisms for Large Multimodal Models'
     year: '2026'
   ditU6YoAAAAJ:d1gkVwhDpl0C:
@@ -16,8 +16,4 @@ papers:
   ditU6YoAAAAJ:u-x6o8ySG0sC:
     citations: 2
     title: 'VL-RouterBench: A Benchmark for Vision-Language Model Routing'
-    year: '2025'
-  ditU6YoAAAAJ:u5HHmVD_uO8C:
-    citations: 9
-    title: 'Adasvd: Adaptive singular value decomposition for large language models'
-    year: '2025'
+    year: '2026'

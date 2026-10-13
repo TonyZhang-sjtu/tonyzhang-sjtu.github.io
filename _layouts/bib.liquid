@@ -244,6 +244,8 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% elsif entry.links_pending == 'true' %}
+        <span class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true">arXiv</span>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -261,6 +263,8 @@
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
+      {% elsif entry.links_pending == 'true' %}
+        <span class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true">PDF</span>
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}

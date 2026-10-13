@@ -40,7 +40,7 @@ awards:
   limit: 5 # leave blank to include all awards
 ---
 
-Hi, I'm Jingyuan Zhang, a first-year master student in Automation at Shanghai Jiao Tong University, advised by [Prof. Mingjie Li](https://mlii0117.github.io/) and [Prof. Hesheng Wang](https://irmv.sjtu.edu.cn/wanghesheng). My research focuses on visual intelligence and multimodal learning. I received B.Eng in Automation with a minor in Finance from SJTU.
+Hi, I'm Jingyuan Zhang, a first-year master student in Automation at Shanghai Jiao Tong University, advised by [Prof. Mingjie Li](https://mlii0117.github.io/). My research focuses on visual intelligence and multimodal learning. I received B.Eng in Automation with a minor in Finance from SJTU.
 
 Previously, I was fortunate to collabrate with [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/En/xiaolin) in machine learning, VLM & diffusion models and [Prof. Yulun Zhang](https://yulunzhang.com/) in efficient AI & model compression. I was also lucky to be a visiting student at [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/) and [Department of Electrical and Computer Engineering, North Carolina State University](https://ece.ncsu.edu/) in 2023 and 2025.
 

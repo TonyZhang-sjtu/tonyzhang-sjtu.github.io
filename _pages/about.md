@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://sais.sjtu.edu.cn/'>SAIS, Shanghai Jiao Tong University</a>.
 # subtitle: <a href='#'>SAIS, Shanghai Jiao Tong University</a>. Address. Contacts. Motto. Etc.

@@ -4,7 +4,7 @@ permalink: /assets/js/search-data.js
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
 
-// add the home and posts menu items
+// add navigation and optional content menu items
 ninja.data = [
   {%- for page in site.pages -%}
     {%- if page.permalink == '/' -%}{%- assign about_title = page.title | strip -%}{%- endif -%}
@@ -29,7 +29,7 @@ ninja.data = [
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
               description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
-              section: "Dropdown",
+              section: "Navigation",
               handler: () => {
                 window.location.href = "{{ url | relative_url }}";
               },
@@ -52,6 +52,7 @@ ninja.data = [
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
+  {%- unless site.search_navigation_only -%}
   {%- if site.posts_in_search -%}
     {%- for post in site.posts -%}
       {
@@ -338,4 +339,5 @@ ninja.data = [
       },
     },
   {%- endif -%}
+  {%- endunless -%}
 ];
